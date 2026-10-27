@@ -1,0 +1,34 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+kubeconfig
+
+# Local tools and installers
+kubectl
+get_helm.sh
+
+# Helm backups and packages
+helm/backups/
+*.backup
+*.tgz
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+app/*.precleanup
